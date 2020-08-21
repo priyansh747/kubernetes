@@ -1,0 +1,9 @@
+appVersion: v1
+kind: Pod
+metadata:
+  name: worker-app-pod
+  app: example-voting-app
+spec:
+  container:
+    - name: worker-app
+      image: prabhavagrawal/worker-app
