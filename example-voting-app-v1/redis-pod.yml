@@ -1,4 +1,4 @@
-appVersion: v1
+appVersion: v2
 kind: Pod
 metadata:
   name: redis-pod
