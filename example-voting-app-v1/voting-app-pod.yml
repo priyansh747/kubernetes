@@ -2,7 +2,9 @@ appVersion: v1
 kind: Pod
 metadata:
   name: voting-app-pod
-  app: example-voting-app
+  labels:
+    name: voting-app-pod
+    app: example-voting-app
 spec:
   container:
     - name: voting-app
