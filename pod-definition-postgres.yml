@@ -6,6 +6,6 @@ metadata:
     tier: db-tier
 
 spec: 
-  container:
+  containers:
     - name: postgres
       image: postgres
