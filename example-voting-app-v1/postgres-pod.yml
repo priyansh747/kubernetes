@@ -6,7 +6,7 @@ metadata:
     name: voting-app-pod
     app: example-voting-app
 spec:
-  container:
+  containers:
     - name: voting-app
       image: postgres
       env:
