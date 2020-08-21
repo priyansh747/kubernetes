@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: redis-pod
   labels:
-    name: voting-app-pod
+    name: redis-pod
     app: example-voting-app
 spec:
   containers:
