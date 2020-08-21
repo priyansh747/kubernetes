@@ -1,0 +1,11 @@
+appVersion: v1
+kind: Pod
+metadata:
+  name: redis-pod
+  app: example-voting-app
+spec:
+  container:
+    - name: voting-app
+      image: redis
+      ports:
+        - containerPort: 6379
