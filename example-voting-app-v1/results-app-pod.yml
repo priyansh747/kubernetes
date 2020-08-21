@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: result-app-pod
   labels:
-    name: voting-app-pod
+    name: result-app-pod
     app: example-voting-app
 spec:
-  container:
+  containers:
     - name: result-app
       image: prabhavagrawal/result-app
       ports:
