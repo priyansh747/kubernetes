@@ -9,3 +9,5 @@ spec:
   containers:
     - name: postgres
       image: postgres
+      env:
+        - POSTGRES_PASSWORD:mysecretpassword
