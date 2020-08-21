@@ -7,7 +7,7 @@ spec:
   type: NodePort
   ports:
     - targetPost: 80
-      post: 80
+      port: 80
       nodePort: 30008
   selector:
     app: myapp
