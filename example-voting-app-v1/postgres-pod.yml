@@ -1,0 +1,14 @@
+appVersion: v1
+kind: Pod
+metadata:
+  name: postgres-pod
+  app: example-voting-app
+spec:
+  container:
+    - name: voting-app
+      image: postgres
+      env:
+        - name: POSTGRES_PASSWORD
+          value: mysecretpassword
+      ports:
+        - containerPort: 80
