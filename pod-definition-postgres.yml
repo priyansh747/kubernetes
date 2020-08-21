@@ -10,4 +10,5 @@ spec:
     - name: postgres
       image: postgres
       env:
-        - POSTGRES_PASSWORD:mysecretpassword
+        - name: POSTGRES_PASSWORD
+          value: mysecretpassword
