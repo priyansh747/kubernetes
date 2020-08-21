@@ -9,5 +9,5 @@ spec:
     - targetPort: 5432
       port: 5432
   selector:
-    name: db-pod
+    name: db
     app: example-voting-app
